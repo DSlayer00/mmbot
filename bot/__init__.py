@@ -10,11 +10,11 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 class ENV_VARS(object):
-    API_ID = int(os.environ.get("1190894"))
-    API_HASH = os.environ.get("e8b74a7639f9b4787b1916acbe43f74d")
+    API_ID = int(os.environ.get("API_ID"))
+    API_HASH = os.environ.get("API_HASH")
     BIFM_URL = os.environ.get("BIFM_URL", "https://bifm.tacohitbox.com/api/bypass?url")
-    BOT_TOKEN = os.environ.get("5146101918:AAH7gJ90NW7Rgml5iU1JBBI5gjXERbDSmJE")
-    BOT_USERNAME = os.environ.get("bypasserobot")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME")
     LANGUAGE = os.environ.get("LANGUAGE", "EN")
 
 Config = ENV_VARS
